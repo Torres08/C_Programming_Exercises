@@ -15,6 +15,8 @@ using namespace std;
 // meto una cadena, si al reves es u palindromo si es igual digo si si no no
 // std:: reverse
 
+// EJEMPLO
+
 /*
     E clase dice haciendolo a la cuenta vieja 
     o[0] 1 ... size 
