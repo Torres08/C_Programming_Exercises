@@ -9,6 +9,8 @@ CPPFLAGS = -Wall -g  -I$(INC) -c
 
 # TEST
 
+all: EX1 EX2 EX3 EX4
+
 TEST_EX1:
 	./$(BIN)/Ex1
 
@@ -19,7 +21,7 @@ TEST_EX3:
 	./$(BIN)/Ex3 ./$(DATOS)/booknames.txt
 
 TEST_EX4:
-	./$(BIN)/Ex4
+	./$(BIN)/Ex4 ./$(DATOS)/listeDentiers.txt
 
 # COMPILATION
 
@@ -42,5 +44,6 @@ clean :
 	rm $(BIN)/Ex*
 	
 
-
+autor:
+	@echo "Torres Ramos, Juan Luis"
 	
