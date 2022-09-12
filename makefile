@@ -4,6 +4,7 @@ INC = include
 OBJ = obj
 BIN = bin
 CXX = g++
+DATOS = data
 CPPFLAGS = -Wall -g  -I$(INC) -c
 
 # TEST
@@ -12,10 +13,10 @@ TEST_EX1:
 	./$(BIN)/Ex1
 
 TEST_EX2:
-	./$(BIN)/Ex2
+	./$(BIN)/Ex2 ./$(DATOS)/notes.txt
 
 TEST_EX3:
-	./$(BIN)/Ex3
+	./$(BIN)/Ex3 ./$(DATOS)/booknames.txt
 
 TEST_EX4:
 	./$(BIN)/Ex4

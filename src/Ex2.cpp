@@ -20,7 +20,7 @@ using namespace std;
 
 int main (int argc, char *argv[]){
     
-  ifstream is("notes.txt");
+  fstream is(argv[1]);
 
   double m;
   int contador = 0;

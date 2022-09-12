@@ -49,8 +49,6 @@ bool is_palindrome (string a)
 int main (){
     
     list<char> b;
-    
-
     string a;
     cin >> a;
     

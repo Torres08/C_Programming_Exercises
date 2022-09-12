@@ -29,9 +29,9 @@ struct Book
 };
 
 
-int main (){
+int main (int argc, char *argv[]){
     
-    ifstream is("bin/booknames.txt");
+    ifstream is(argv[1]);
     vector<Book> v;
     string name;
     int m;
@@ -44,8 +44,6 @@ int main (){
         v.push_back(b);
     }
 
-    //for (auto ir = v.crbegin(); ir != v.crend(); ++ir)
-    //    cout << *ir << " ";
 
     // EXAMPLE OUTPUT
     for (int i = 0; i < v.size(); ++i)
