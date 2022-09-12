@@ -35,7 +35,7 @@ bool is_palindrome (string a)
 }
 */
 
-// lista.reverse
+// lista.reverse 1 
 
 bool is_palindrome (string a)
 {
