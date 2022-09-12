@@ -15,7 +15,11 @@ using namespace std;
 // meto una cadena, si al reves es u palindromo si es igual digo si si no no
 // std:: reverse
 
+<<<<<<< HEAD
 // EJEMPLO 2 
+=======
+// EJEMPLO
+>>>>>>> 27d05b7 (Comienzo)
 
 /*
     E clase dice haciendolo a la cuenta vieja 
